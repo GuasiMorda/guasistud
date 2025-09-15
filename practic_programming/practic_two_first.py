@@ -1,0 +1,7 @@
+user_input_one = int(input("Введите 1-ое число: "))
+user_input_two = int(input("Введите 2-ое число: "))
+print("Ответ при сложении: ", user_input_one + user_input_two)
+print("Ответ при вычитании: ", user_input_one - user_input_two)
+print("Ответ при умножении: ", user_input_one * user_input_two)
+print("Ответ при делении: ", user_input_one / user_input_two)
+print("Ответ при возведении в степень: ", user_input_one ** user_input_two)

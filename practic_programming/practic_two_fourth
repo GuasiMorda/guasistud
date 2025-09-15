@@ -1,0 +1,24 @@
+print("[1] Сложение")
+print("[2] Вычитание")
+print("[3] Умножение")
+print("[4] Деление")
+user_input_choice = int(input("Выберите действие: "))
+
+if user_input_choice == 1:
+    user_first_number = int(input("Введите первое число: "))
+    user_second_number = int(input("Введите второе число: "))
+    print("Сложение; ", user_first_number + user_second_number)
+elif user_input_choice == 2:
+    user_first_number = int(input("Введите первое число: "))
+    user_second_number = int(input("Введите второе число: "))
+    print("Вычитание: ", user_first_number - user_second_number)
+elif user_input_choice == 3:
+    user_first_number = int(input("Введите первое число: "))
+    user_second_number = int(input("Введите второе число: "))
+    print("Умножение: ", user_first_number * user_second_number)
+elif user_input_choice == 4:
+    user_first_number = int(input("Введите первое число: "))
+    user_second_number = int(input("Введите второе число: "))
+    print("Деление: ", user_first_number / user_second_number)
+elif user_input_choice >= 5:
+    print("Error")

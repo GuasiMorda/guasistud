@@ -1,4 +1,4 @@
-input_user = input("Введите строку: ").lower()
+input_user = input("Введите текст: ").lower()
 
 word = input_user.split()
 

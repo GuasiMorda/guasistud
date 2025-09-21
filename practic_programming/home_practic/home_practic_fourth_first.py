@@ -1,7 +1,7 @@
 user_input = input()
 count = 0
-for char in user_input:
-    if char.isdigit():
+for i in user_input:
+    if i.isdigit():
         count += 1
 
 if count == 0:

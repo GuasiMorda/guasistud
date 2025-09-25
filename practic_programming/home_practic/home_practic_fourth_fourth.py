@@ -10,8 +10,8 @@ name = input().upper()
 
 result = ''
 for i in name:
-    if i in translit_map:
-        result += translit_map[i]
+    if i in translit:
+        result += translit[i]
     else:
         result += i
 
